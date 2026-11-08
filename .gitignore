@@ -1,0 +1,16 @@
+# secrets and local state
+.env
+.venv/
+__pycache__/
+*.pyc
+
+# local data dumps
+backups/
+exports/
+demo/*.json
+
+# os / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,2862 @@
+{
+ "advertisementsAdAccountsList": {
+  "method": "GET",
+  "path": "/ad-accounts",
+  "file": "app.6c73ad04.js"
+ },
+ "advertisementsAdAccountsCreate": {
+  "method": "POST",
+  "path": "/ad-accounts",
+  "file": "app.6c73ad04.js"
+ },
+ "advertisementsAdAccountsFacebookAccounts": {
+  "method": "GET",
+  "path": "/ad-accounts/facebook/accounts",
+  "file": "app.6c73ad04.js"
+ },
+ "advertisementsAdAccountsFacebookDatasets": {
+  "method": "GET",
+  "path": "/ad-accounts/facebook/datasets",
+  "file": "app.6c73ad04.js"
+ },
+ "advertisementsAdAccountsUpdate": {
+  "method": "PUT",
+  "path": "/ad-accounts/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "advertisementsAdAccountsDelete": {
+  "method": "DELETE",
+  "path": "/ad-accounts/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "auditingAll": {
+  "method": "GET",
+  "path": "/auditing/all",
+  "file": "app.6c73ad04.js"
+ },
+ "auditingByLead": {
+  "method": "GET",
+  "path": "/auditing/lead/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "auditingByManager": {
+  "method": "GET",
+  "path": "/auditing/manager/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "auditingByManufacturing": {
+  "method": "GET",
+  "path": "/auditing/manufacturing/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "auditingByOrder": {
+  "method": "GET",
+  "path": "/auditing/order/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "auditingByTask": {
+  "method": "GET",
+  "path": "/auditing/task/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "authForgotPassword": {
+  "method": "POST",
+  "path": "/auth/forgot-password",
+  "file": "app.6c73ad04.js"
+ },
+ "authImpressionate": {
+  "method": "POST",
+  "path": "/auth/impressionate",
+  "file": "app.6c73ad04.js"
+ },
+ "authLogin": {
+  "method": "POST",
+  "path": "/auth/login",
+  "file": "app.6c73ad04.js"
+ },
+ "authLoginViaAccount": {
+  "method": "POST",
+  "path": "/auth/login-via-account",
+  "file": "app.6c73ad04.js"
+ },
+ "authLogout": {
+  "method": "POST",
+  "path": "/auth/logout",
+  "file": "app.6c73ad04.js"
+ },
+ "authProfileGet": {
+  "method": "GET",
+  "path": "/auth/profile",
+  "file": "app.6c73ad04.js"
+ },
+ "authProfileUpdate": {
+  "method": "PUT",
+  "path": "/auth/profile",
+  "file": "app.6c73ad04.js"
+ },
+ "authProfileChangePassword": {
+  "method": "PUT",
+  "path": "/auth/profile/change-password",
+  "file": "app.6c73ad04.js"
+ },
+ "authProfileDeviceToken": {
+  "method": "POST",
+  "path": "/auth/profile/device-token",
+  "file": "app.6c73ad04.js"
+ },
+ "authProfileDisable2fa": {
+  "method": "POST",
+  "path": "/auth/profile/disable_2fa",
+  "file": "app.6c73ad04.js"
+ },
+ "authProfileEnable2fa": {
+  "method": "POST",
+  "path": "/auth/profile/enable_2fa",
+  "file": "app.6c73ad04.js"
+ },
+ "authProfileNotificationsMarkAsRead": {
+  "method": "PUT",
+  "path": "/auth/profile/notifications",
+  "file": "app.6c73ad04.js"
+ },
+ "authProfileNotificationsCount": {
+  "method": "GET",
+  "path": "/auth/profile/notifications/count",
+  "file": "app.6c73ad04.js"
+ },
+ "authProfileNotificationsList": {
+  "method": "GET",
+  "path": "/auth/profile/notifications/list/{group}",
+  "file": "app.6c73ad04.js"
+ },
+ "authProfileQr": {
+  "method": "GET",
+  "path": "/auth/profile/qr",
+  "file": "app.6c73ad04.js"
+ },
+ "authProfileSessionsList": {
+  "method": "GET",
+  "path": "/auth/profile/sessions",
+  "file": "app.6c73ad04.js"
+ },
+ "authProfileSessionsDelete": {
+  "method": "DELETE",
+  "path": "/auth/profile/sessions/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "authRefresh": {
+  "method": "POST",
+  "path": "/auth/refresh",
+  "file": "app.6c73ad04.js"
+ },
+ "authResetPassword": {
+  "method": "POST",
+  "path": "/auth/reset-password",
+  "file": "app.6c73ad04.js"
+ },
+ "authVerify": {
+  "method": "POST",
+  "path": "/auth/verify",
+  "file": "app.6c73ad04.js"
+ },
+ "automationsTriggersList": {
+  "method": "GET",
+  "path": "/automations/triggers",
+  "file": "app.6c73ad04.js"
+ },
+ "automationsTriggersCreate": {
+  "method": "POST",
+  "path": "/automations/triggers",
+  "file": "app.6c73ad04.js"
+ },
+ "automationsTriggersUpdate": {
+  "method": "PUT",
+  "path": "/automations/triggers/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "automationsTriggersDelete": {
+  "method": "DELETE",
+  "path": "/automations/triggers/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "automationsTriggersCopy": {
+  "method": "POST",
+  "path": "/automations/triggers/{id}/copy",
+  "file": "app.6c73ad04.js"
+ },
+ "automationsTriggersToggle": {
+  "method": "PUT",
+  "path": "/automations/triggers/{id}/toggle",
+  "file": "app.6c73ad04.js"
+ },
+ "batchOrdersStatus": {
+  "method": "POST",
+  "path": "/batch/orders/execute/status",
+  "file": "app.6c73ad04.js"
+ },
+ "batchOrdersManager": {
+  "method": "POST",
+  "path": "/batch/orders/execute/manager",
+  "file": "app.6c73ad04.js"
+ },
+ "batchOrdersTags": {
+  "method": "POST",
+  "path": "/batch/orders/execute/tags",
+  "file": "app.6c73ad04.js"
+ },
+ "batchOrdersExport": {
+  "method": "POST",
+  "path": "/batch/orders/execute/export",
+  "file": "app.6c73ad04.js"
+ },
+ "batchOrdersPrint": {
+  "method": "POST",
+  "path": "/batch/orders/execute/print",
+  "file": "app.6c73ad04.js"
+ },
+ "batchOrdersShippingDate": {
+  "method": "POST",
+  "path": "/batch/orders/execute/shipping_date",
+  "file": "app.6c73ad04.js"
+ },
+ "batchOrdersList": {
+  "method": "POST",
+  "path": "/batch/orders/execute/list",
+  "file": "app.6c73ad04.js"
+ },
+ "batchOrdersRemove": {
+  "method": "POST",
+  "path": "/batch/orders/execute/remove",
+  "file": "app.6c73ad04.js"
+ },
+ "batchLeadsStatus": {
+  "method": "POST",
+  "path": "/batch/leads/execute/status",
+  "file": "app.6c73ad04.js"
+ },
+ "batchLeadsAssignTo": {
+  "method": "POST",
+  "path": "/batch/leads/execute/assign_to",
+  "file": "app.6c73ad04.js"
+ },
+ "batchLeadsExport": {
+  "method": "POST",
+  "path": "/batch/leads/execute/export",
+  "file": "app.6c73ad04.js"
+ },
+ "batchLeadsRemove": {
+  "method": "POST",
+  "path": "/batch/leads/execute/remove",
+  "file": "app.6c73ad04.js"
+ },
+ "batchLeadsPipeline": {
+  "method": "POST",
+  "path": "/batch/leads/execute/pipeline",
+  "file": "app.6c73ad04.js"
+ },
+ "batchTasksAssignTo": {
+  "method": "POST",
+  "path": "/batch/tasks/execute/assign_to",
+  "file": "app.6c73ad04.js"
+ },
+ "batchTasksScheduled": {
+  "method": "POST",
+  "path": "/batch/tasks/execute/scheduled",
+  "file": "app.6c73ad04.js"
+ },
+ "batchTasksComplete": {
+  "method": "POST",
+  "path": "/batch/tasks/execute/complete",
+  "file": "app.6c73ad04.js"
+ },
+ "batchManufacturingStatus": {
+  "method": "POST",
+  "path": "/batch/manufacturing/execute/status",
+  "file": "app.6c73ad04.js"
+ },
+ "batchManufacturingProducer": {
+  "method": "POST",
+  "path": "/batch/manufacturing/execute/producer",
+  "file": "app.6c73ad04.js"
+ },
+ "batchManufacturingPrint": {
+  "method": "POST",
+  "path": "/batch/manufacturing/execute/print",
+  "file": "app.6c73ad04.js"
+ },
+ "batchManufacturingRemove": {
+  "method": "POST",
+  "path": "/batch/manufacturing/execute/remove",
+  "file": "app.6c73ad04.js"
+ },
+ "batchClientsManager": {
+  "method": "POST",
+  "path": "/batch/clients/execute/manager",
+  "file": "app.6c73ad04.js"
+ },
+ "batchClientsRemove": {
+  "method": "POST",
+  "path": "/batch/clients/execute/remove",
+  "file": "app.6c73ad04.js"
+ },
+ "batchClientsExport": {
+  "method": "POST",
+  "path": "/batch/clients/execute/export",
+  "file": "app.6c73ad04.js"
+ },
+ "batchCompaniesExport": {
+  "method": "POST",
+  "path": "/batch/companies/execute/export",
+  "file": "app.6c73ad04.js"
+ },
+ "batchCompaniesManager": {
+  "method": "POST",
+  "path": "/batch/companies/execute/manager",
+  "file": "app.6c73ad04.js"
+ },
+ "batchCompaniesRemove": {
+  "method": "POST",
+  "path": "/batch/companies/execute/remove",
+  "file": "app.6c73ad04.js"
+ },
+ "batchProductsCategory": {
+  "method": "POST",
+  "path": "/batch/products/execute/category",
+  "file": "app.6c73ad04.js"
+ },
+ "batchProductsExport": {
+  "method": "POST",
+  "path": "/batch/products/execute/export",
+  "file": "app.6c73ad04.js"
+ },
+ "batchProductsArchive": {
+  "method": "POST",
+  "path": "/batch/products/execute/archive",
+  "file": "app.6c73ad04.js"
+ },
+ "batchProductsRemove": {
+  "method": "POST",
+  "path": "/batch/products/execute/remove",
+  "file": "app.6c73ad04.js"
+ },
+ "batchPublicationsCreateProducts": {
+  "method": "POST",
+  "path": "/batch/publications/execute/create_products",
+  "file": "app.6c73ad04.js"
+ },
+ "batchPublicationsRemove": {
+  "method": "POST",
+  "path": "/batch/publications/execute/remove",
+  "file": "app.6c73ad04.js"
+ },
+ "batchConversationsClose": {
+  "method": "POST",
+  "path": "/batch/conversations/execute/close",
+  "file": "app.6c73ad04.js"
+ },
+ "batchConversationsAssign": {
+  "method": "POST",
+  "path": "/batch/conversations/execute/assign",
+  "file": "app.6c73ad04.js"
+ },
+ "batchConversationsRemoveAssignment": {
+  "method": "POST",
+  "path": "/batch/conversations/execute/remove_assignment",
+  "file": "app.6c73ad04.js"
+ },
+ "batchList": {
+  "method": "GET",
+  "path": "/batch/{domain}/list",
+  "file": "app.6c73ad04.js"
+ },
+ "billingBalance": {
+  "method": "GET",
+  "path": "/billing",
+  "file": "app.6c73ad04.js"
+ },
+ "billingCheck": {
+  "method": "GET",
+  "path": "/billing/check",
+  "file": "app.6c73ad04.js"
+ },
+ "billingCheckoutForm": {
+  "method": "POST",
+  "path": "/billing/checkout",
+  "file": "app.6c73ad04.js"
+ },
+ "billingCheckoutComplete": {
+  "method": "POST",
+  "path": "/billing/checkout/complete",
+  "file": "app.6c73ad04.js"
+ },
+ "billingInvoices": {
+  "method": "GET",
+  "path": "/billing/invoices",
+  "file": "app.6c73ad04.js"
+ },
+ "billingPayments": {
+  "method": "GET",
+  "path": "/billing/payments",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogCategoriesCreate": {
+  "method": "POST",
+  "path": "/catalog/categories",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogCategoriesList": {
+  "method": "GET",
+  "path": "/catalog/categories/tree",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogCategoriesUpdate": {
+  "method": "PUT",
+  "path": "/catalog/categories/{category}",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogCategoriesDelete": {
+  "method": "DELETE",
+  "path": "/catalog/categories/{category}",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogCustomerProductsUpdate": {
+  "method": "PUT",
+  "path": "/catalog/customer-products/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogCustomerProductsDelete": {
+  "method": "DELETE",
+  "path": "/catalog/customer-products/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogCustomerProductsList": {
+  "method": "GET",
+  "path": "/catalog/customer-products/{parent_type}/{parent_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogProductKitsIndex": {
+  "method": "GET",
+  "path": "/catalog/product-kits/{subject_type}/{subject_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogProductKitsUpsert": {
+  "method": "PUT",
+  "path": "/catalog/product-kits/{subject_type}/{subject_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogProductsList": {
+  "method": "GET",
+  "path": "/catalog/products",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogProductsCreate": {
+  "method": "POST",
+  "path": "/catalog/products",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogProductsPopular": {
+  "method": "POST",
+  "path": "/catalog/products/popular",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogProductsProductsStatusesIndex": {
+  "method": "GET",
+  "path": "/catalog/products/statuses",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogProductsProductsStatusesCreate": {
+  "method": "POST",
+  "path": "/catalog/products/statuses",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogProductsProductsStatusesReorder": {
+  "method": "POST",
+  "path": "/catalog/products/statuses/reorder",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogProductsProductsStatusesUpdate": {
+  "method": "PUT",
+  "path": "/catalog/products/statuses/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogProductsArchive": {
+  "method": "POST",
+  "path": "/catalog/products/{id}/archive",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogProductsView": {
+  "method": "GET",
+  "path": "/catalog/products/{product_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogProductsUpdate": {
+  "method": "PUT",
+  "path": "/catalog/products/{product_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogProductsDelete": {
+  "method": "DELETE",
+  "path": "/catalog/products/{product_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogProductsOffersList": {
+  "method": "GET",
+  "path": "/catalog/products/{product_id}/offers",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogProductsOffersUpdate": {
+  "method": "PUT",
+  "path": "/catalog/products/{product_id}/offers",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogProductsOffersCreate": {
+  "method": "POST",
+  "path": "/catalog/products/{product_id}/offers",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogProductsOffersGenerate": {
+  "method": "PUT",
+  "path": "/catalog/products/{product_id}/offers/properties",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogProductsOffersDetails": {
+  "method": "GET",
+  "path": "/catalog/products/{product_id}/offers/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogProductsOffersDelete": {
+  "method": "DELETE",
+  "path": "/catalog/products/{product_id}/offers/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogProductsOffersArchive": {
+  "method": "POST",
+  "path": "/catalog/products/{product_id}/offers/{offer_id}/archive",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogPublicationsList": {
+  "method": "GET",
+  "path": "/catalog/publications",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogPublicationsLoad": {
+  "method": "POST",
+  "path": "/catalog/publications/load",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogPublicationsSync": {
+  "method": "POST",
+  "path": "/catalog/publications/{publication_id}/sync",
+  "file": "app.6c73ad04.js"
+ },
+ "productsCatalogPublicationsVariationsList": {
+  "method": "GET",
+  "path": "/catalog/publications/{publication_id}/variations",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsList": {
+  "method": "GET",
+  "path": "/clients",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsCreate": {
+  "method": "POST",
+  "path": "/clients",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsCompanyIndex": {
+  "method": "GET",
+  "path": "/clients/company",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsCompanyCreate": {
+  "method": "POST",
+  "path": "/clients/company",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsByCompany": {
+  "method": "GET",
+  "path": "/clients/company-list/{companyId}",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsCompanySearch": {
+  "method": "GET",
+  "path": "/clients/company/search",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsCompanyClientAttach": {
+  "method": "POST",
+  "path": "/clients/company/{company_id}/client",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsCompanyView": {
+  "method": "GET",
+  "path": "/clients/company/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsCompanyUpdate": {
+  "method": "PUT",
+  "path": "/clients/company/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsCompanyDelete": {
+  "method": "DELETE",
+  "path": "/clients/company/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsConfig": {
+  "method": "GET",
+  "path": "/clients/config",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsContactsUpdate": {
+  "method": "PUT",
+  "path": "/clients/contacts/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsContactsAssign": {
+  "method": "PUT",
+  "path": "/clients/contacts/{id}/assign/{client_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsContactsSwitch": {
+  "method": "PUT",
+  "path": "/clients/contacts/{id}/switch/{client_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsSearchDuplicates": {
+  "method": "GET",
+  "path": "/clients/duplicates",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsFromContact": {
+  "method": "POST",
+  "path": "/clients/from-contact",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsMergeList": {
+  "method": "GET",
+  "path": "/clients/list",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsSearch": {
+  "method": "GET",
+  "path": "/clients/search",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsProfilesCreate": {
+  "method": "POST",
+  "path": "/clients/{client_id}/profiles",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsProfilesUpdate": {
+  "method": "PUT",
+  "path": "/clients/{client_id}/profiles/{profile_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsProfilesDelete": {
+  "method": "DELETE",
+  "path": "/clients/{client_id}/profiles/{profile_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsView": {
+  "method": "GET",
+  "path": "/clients/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsUpdate": {
+  "method": "PUT",
+  "path": "/clients/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsDelete": {
+  "method": "DELETE",
+  "path": "/clients/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsMerge": {
+  "method": "POST",
+  "path": "/clients/{id}/duplicates",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsDropDuplicates": {
+  "method": "DELETE",
+  "path": "/clients/{id}/duplicates/{cloneId}",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsShippingAddressAll": {
+  "method": "GET",
+  "path": "/clients/{id}/shipping-address",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsShippingAddressCreate": {
+  "method": "POST",
+  "path": "/clients/{id}/shipping-address",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsShippingAddressUpdate": {
+  "method": "PUT",
+  "path": "/clients/{id}/shipping-address/{address_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "clientsShippingAddressDelete": {
+  "method": "DELETE",
+  "path": "/clients/{id}/shipping-address/{address_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "commandsExecuteManufacturing": {
+  "method": "POST",
+  "path": "/commands/manufacturing",
+  "file": "app.6c73ad04.js"
+ },
+ "commandsExecuteOrders": {
+  "method": "POST",
+  "path": "/commands/orders",
+  "file": "app.6c73ad04.js"
+ },
+ "communicationsCallsRoutesList": {
+  "method": "GET",
+  "path": "/communications/call-routes",
+  "file": "app.6c73ad04.js"
+ },
+ "communicationsCallsRoutesCreate": {
+  "method": "POST",
+  "path": "/communications/call-routes",
+  "file": "app.6c73ad04.js"
+ },
+ "communicationsCallsRoutesCallUrl": {
+  "method": "GET",
+  "path": "/communications/call-routes/call-url/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "communicationsCallsRoutesSuspend": {
+  "method": "POST",
+  "path": "/communications/call-routes/suspend",
+  "file": "app.6c73ad04.js"
+ },
+ "communicationsCallsRoutesTrigger": {
+  "method": "POST",
+  "path": "/communications/call-routes/trigger",
+  "file": "app.6c73ad04.js"
+ },
+ "communicationsCallsRoutesUpdate": {
+  "method": "PUT",
+  "path": "/communications/call-routes/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "communicationsCallsRoutesDelete": {
+  "method": "DELETE",
+  "path": "/communications/call-routes/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "communicationsCallsList": {
+  "method": "GET",
+  "path": "/communications/calls",
+  "file": "app.6c73ad04.js"
+ },
+ "communicationsCallsView": {
+  "method": "GET",
+  "path": "/communications/calls/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "communicationsCallsUpdate": {
+  "method": "PUT",
+  "path": "/communications/calls/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "communicationsCommentsEdit": {
+  "method": "PUT",
+  "path": "/communications/comments/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "communicationsCommentsDelete": {
+  "method": "DELETE",
+  "path": "/communications/comments/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "communicationsCommentsList": {
+  "method": "GET",
+  "path": "/communications/comments/{type}/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "communicationsCommentsCreate": {
+  "method": "POST",
+  "path": "/communications/comments/{type}/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "communicationsCommentsListForId": {
+  "method": "GET",
+  "path": "/communications/comments/{type}/{id}/{commentId}",
+  "file": "app.6c73ad04.js"
+ },
+ "communicationsTemplatesIndex": {
+  "method": "GET",
+  "path": "/communications/templates",
+  "file": "app.6c73ad04.js"
+ },
+ "communicationsTemplatesStore": {
+  "method": "POST",
+  "path": "/communications/templates",
+  "file": "app.6c73ad04.js"
+ },
+ "communicationsTemplatesRendered": {
+  "method": "POST",
+  "path": "/communications/templates/render/{template}",
+  "file": "app.6c73ad04.js"
+ },
+ "communicationsTemplatesUpdatePut": {
+  "method": "PUT",
+  "path": "/communications/templates/{template}",
+  "file": "app.6c73ad04.js"
+ },
+ "communicationsTemplatesDestroy": {
+  "method": "DELETE",
+  "path": "/communications/templates/{template}",
+  "file": "app.6c73ad04.js"
+ },
+ "communicationsTemplatesUpdatePatch": {
+  "method": "PATCH",
+  "path": "/communications/templates/{template}",
+  "file": "app.6c73ad04.js"
+ },
+ "configApiClientIndex": {
+  "method": "GET",
+  "path": "/config/api-client",
+  "file": "app.6c73ad04.js"
+ },
+ "configApiClientCreate": {
+  "method": "POST",
+  "path": "/config/api-client",
+  "file": "app.6c73ad04.js"
+ },
+ "configApiClientRefreshApiToken": {
+  "method": "PUT",
+  "path": "/config/api-client/refresh-api-token",
+  "file": "app.6c73ad04.js"
+ },
+ "configSettingsCountriesList": {
+  "method": "GET",
+  "path": "/config/countries",
+  "file": "app.6c73ad04.js"
+ },
+ "configCurrencyDeleted": {
+  "method": "DELETE",
+  "path": "/config/currency/{code}/deleted",
+  "file": "app.6c73ad04.js"
+ },
+ "configCustomFieldsIndex": {
+  "method": "GET",
+  "path": "/config/custom-fields",
+  "file": "app.6c73ad04.js"
+ },
+ "configCustomFieldsCreate": {
+  "method": "POST",
+  "path": "/config/custom-fields",
+  "file": "app.6c73ad04.js"
+ },
+ "configCustomFieldsReorder": {
+  "method": "POST",
+  "path": "/config/custom-fields/reorder",
+  "file": "app.6c73ad04.js"
+ },
+ "configCustomFieldsOptionsCreate": {
+  "method": "POST",
+  "path": "/config/custom-fields/{field}/options",
+  "file": "app.6c73ad04.js"
+ },
+ "configCustomFieldsOptionsUpdate": {
+  "method": "PUT",
+  "path": "/config/custom-fields/{field}/options/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "configCustomFieldsOptionsDelete": {
+  "method": "DELETE",
+  "path": "/config/custom-fields/{field}/options/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "configCustomFieldsValues": {
+  "method": "GET",
+  "path": "/config/custom-fields/{model_id}/{model}/values",
+  "file": "app.6c73ad04.js"
+ },
+ "configCustomFieldsUpdate": {
+  "method": "PUT",
+  "path": "/config/custom-fields/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "configCustomFieldsDelete": {
+  "method": "DELETE",
+  "path": "/config/custom-fields/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "configDocumentsList": {
+  "method": "GET",
+  "path": "/config/documents",
+  "file": "app.6c73ad04.js"
+ },
+ "configDocumentsCreate": {
+  "method": "POST",
+  "path": "/config/documents",
+  "file": "app.6c73ad04.js"
+ },
+ "configDocumentsAttachAction": {
+  "method": "POST",
+  "path": "/config/documents/attach/{template}/{scope}/{model_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "configDocumentsByScope": {
+  "method": "GET",
+  "path": "/config/documents/by-scope/{scope}",
+  "file": "app.6c73ad04.js"
+ },
+ "configDocumentsPreview": {
+  "method": "POST",
+  "path": "/config/documents/preview",
+  "file": "app.6c73ad04.js"
+ },
+ "configDocumentsPreviewPdf": {
+  "method": "POST",
+  "path": "/config/documents/preview-pdf",
+  "file": "app.6c73ad04.js"
+ },
+ "configDocumentsPrintAction": {
+  "method": "GET",
+  "path": "/config/documents/print/{template}/{scope}/{model_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "configDocumentsUpdate": {
+  "method": "PUT",
+  "path": "/config/documents/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "configDocumentsDelete": {
+  "method": "DELETE",
+  "path": "/config/documents/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "configExportList": {
+  "method": "GET",
+  "path": "/config/export",
+  "file": "app.6c73ad04.js"
+ },
+ "configExportCreate": {
+  "method": "POST",
+  "path": "/config/export",
+  "file": "app.6c73ad04.js"
+ },
+ "configExportFormats": {
+  "method": "GET",
+  "path": "/config/export/formats",
+  "file": "app.6c73ad04.js"
+ },
+ "configExportUpdate": {
+  "method": "PUT",
+  "path": "/config/export/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "configExportDelete": {
+  "method": "DELETE",
+  "path": "/config/export/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "configExternalIntegrationsNeuronCallUrl": {
+  "method": "GET",
+  "path": "/config/external-integrations/neuron/call-url",
+  "file": "app.6c73ad04.js"
+ },
+ "configFieldsAll": {
+  "method": "PUT",
+  "path": "/config/fields/all",
+  "file": "app.6c73ad04.js"
+ },
+ "configFieldsTables": {
+  "method": "PUT",
+  "path": "/config/fields/tables",
+  "file": "app.6c73ad04.js"
+ },
+ "configFilterProfilesList": {
+  "method": "GET",
+  "path": "/config/filter-profiles",
+  "file": "app.6c73ad04.js"
+ },
+ "configFilterProfilesCreate": {
+  "method": "POST",
+  "path": "/config/filter-profiles",
+  "file": "app.6c73ad04.js"
+ },
+ "configFilterProfilesDelete": {
+  "method": "DELETE",
+  "path": "/config/filter-profiles/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "configStaticPostServices": {
+  "method": "GET",
+  "path": "/config/post",
+  "file": "app.6c73ad04.js"
+ },
+ "configPrintList": {
+  "method": "GET",
+  "path": "/config/print",
+  "file": "app.6c73ad04.js"
+ },
+ "configPrintCreate": {
+  "method": "POST",
+  "path": "/config/print",
+  "file": "app.6c73ad04.js"
+ },
+ "configPrintUpdate": {
+  "method": "PUT",
+  "path": "/config/print/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "configPrintDelete": {
+  "method": "DELETE",
+  "path": "/config/print/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "configSettingsList": {
+  "method": "GET",
+  "path": "/config/settings",
+  "file": "app.6c73ad04.js"
+ },
+ "configSettingsUpdateCompanies": {
+  "method": "PUT",
+  "path": "/config/settings/companies",
+  "file": "app.6c73ad04.js"
+ },
+ "configSettingsUpdateCurrencies": {
+  "method": "PUT",
+  "path": "/config/settings/currencies",
+  "file": "app.6c73ad04.js"
+ },
+ "configSettingsUpdateDeliveryStatusToggles": {
+  "method": "PUT",
+  "path": "/config/settings/delivery_status_toggles",
+  "file": "app.6c73ad04.js"
+ },
+ "configSettingsUpdateExternalIntegrations": {
+  "method": "PUT",
+  "path": "/config/settings/external_integrations",
+  "file": "app.6c73ad04.js"
+ },
+ "configSettingsUpdateGeneral": {
+  "method": "PUT",
+  "path": "/config/settings/general",
+  "file": "app.6c73ad04.js"
+ },
+ "configSettingsUpdateLeads": {
+  "method": "PUT",
+  "path": "/config/settings/leads",
+  "file": "app.6c73ad04.js"
+ },
+ "configSettingsUpdateLoyaltyPrograms": {
+  "method": "PUT",
+  "path": "/config/settings/loyalty_programs",
+  "file": "app.6c73ad04.js"
+ },
+ "configSettingsUpdateManufacturing": {
+  "method": "PUT",
+  "path": "/config/settings/manufacturing",
+  "file": "app.6c73ad04.js"
+ },
+ "configSettingsUpdateNotifications": {
+  "method": "PUT",
+  "path": "/config/settings/notifications",
+  "file": "app.6c73ad04.js"
+ },
+ "configSettingsUpdateOrders": {
+  "method": "PUT",
+  "path": "/config/settings/orders",
+  "file": "app.6c73ad04.js"
+ },
+ "configSettingsUpdateProducts": {
+  "method": "PUT",
+  "path": "/config/settings/products",
+  "file": "app.6c73ad04.js"
+ },
+ "configSettingsUpdateShipment": {
+  "method": "PUT",
+  "path": "/config/settings/shipment",
+  "file": "app.6c73ad04.js"
+ },
+ "configSettingsUpdateSuppliers": {
+  "method": "PUT",
+  "path": "/config/settings/suppliers",
+  "file": "app.6c73ad04.js"
+ },
+ "configStaticList": {
+  "method": "GET",
+  "path": "/config/static",
+  "file": "app.6c73ad04.js"
+ },
+ "configSurveysStoreResult": {
+  "method": "POST",
+  "path": "/config/surveys/{survey}",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsList": {
+  "method": "GET",
+  "path": "/conversations",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsCreate": {
+  "method": "POST",
+  "path": "/conversations",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsByChannelStats": {
+  "method": "GET",
+  "path": "/conversations/by-channel/{channel_id}/stats",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsByClient": {
+  "method": "GET",
+  "path": "/conversations/by-client/{client_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsByContact": {
+  "method": "GET",
+  "path": "/conversations/by-contact/{contact_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsByPhone": {
+  "method": "GET",
+  "path": "/conversations/by-phone",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsChannelsList": {
+  "method": "GET",
+  "path": "/conversations/channels",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsChannelsCreate": {
+  "method": "POST",
+  "path": "/conversations/channels",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsChannelsMarketplace": {
+  "method": "GET",
+  "path": "/conversations/channels/marketplace",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsChannelsUpdate": {
+  "method": "PUT",
+  "path": "/conversations/channels/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsChannelsDelete": {
+  "method": "DELETE",
+  "path": "/conversations/channels/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsChannelsExtendRate": {
+  "method": "POST",
+  "path": "/conversations/channels/{id}/extend-rate",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsMessagesByClient": {
+  "method": "GET",
+  "path": "/conversations/messages/by_client/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsMessagesByLead": {
+  "method": "GET",
+  "path": "/conversations/messages/by_lead/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsPrivateViberInfo": {
+  "method": "POST",
+  "path": "/conversations/private-viber/info",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsPrivateViberInitialize": {
+  "method": "POST",
+  "path": "/conversations/private-viber/initialize",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsPrivateViberActivate": {
+  "method": "POST",
+  "path": "/conversations/private-viber/{session}/activate",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsPrivateViberCheck": {
+  "method": "GET",
+  "path": "/conversations/private-viber/{session}/check",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsPrivateWhatsappInfo": {
+  "method": "POST",
+  "path": "/conversations/private-whatsapp/info",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsPrivateWhatsappInitialize": {
+  "method": "POST",
+  "path": "/conversations/private-whatsapp/initialize",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsPrivateWhatsappActivate": {
+  "method": "POST",
+  "path": "/conversations/private-whatsapp/{session}/activate",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsPrivateWhatsappCheck": {
+  "method": "GET",
+  "path": "/conversations/private-whatsapp/{session}/check",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsTelegramClientValidate": {
+  "method": "GET",
+  "path": "/conversations/telegram-client/{session}/validate",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsTagsIndex": {
+  "method": "GET",
+  "path": "/conversations/tags",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsTagsStore": {
+  "method": "POST",
+  "path": "/conversations/tags",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsTagsUpdate": {
+  "method": "PUT",
+  "path": "/conversations/tags/{tag}",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsTagsDestroy": {
+  "method": "DELETE",
+  "path": "/conversations/tags/{tag}",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsTagsUpdatePatch": {
+  "method": "PATCH",
+  "path": "/conversations/tags/{tag}",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsTicketsView": {
+  "method": "GET",
+  "path": "/conversations/tickets/{ticket_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsUnread": {
+  "method": "GET",
+  "path": "/conversations/unread",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsView": {
+  "method": "GET",
+  "path": "/conversations/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsUpdate": {
+  "method": "PUT",
+  "path": "/conversations/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsMessagesList": {
+  "method": "GET",
+  "path": "/conversations/{id}/messages",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsMessagesReply": {
+  "method": "POST",
+  "path": "/conversations/{id}/messages",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsMessagesForMessage": {
+  "method": "GET",
+  "path": "/conversations/{id}/messages/for_message/{message_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsMessagesForTicket": {
+  "method": "GET",
+  "path": "/conversations/{id}/messages/for_ticket/{ticket_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsMessagesEdit": {
+  "method": "PUT",
+  "path": "/conversations/{id}/messages/{message_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsMessagesDelete": {
+  "method": "DELETE",
+  "path": "/conversations/{id}/messages/{message_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsMessagesReaction": {
+  "method": "POST",
+  "path": "/conversations/{id}/messages/{message_id}/reaction",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsSyncTags": {
+  "method": "POST",
+  "path": "/conversations/{id}/tags",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsAttachTag": {
+  "method": "POST",
+  "path": "/conversations/{id}/tags/{tag}",
+  "file": "app.6c73ad04.js"
+ },
+ "conversationsDetachTag": {
+  "method": "POST",
+  "path": "/conversations/{id}/tags/{tag}/detach",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryAddressingSuggest": {
+  "method": "GET",
+  "path": "/delivery/addresses/suggest",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryDeliveryServicesIndex": {
+  "method": "GET",
+  "path": "/delivery/delivery-services",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryDeliveryServicesStore": {
+  "method": "POST",
+  "path": "/delivery/delivery-services",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryDeliveryServicesUpdatePut": {
+  "method": "PUT",
+  "path": "/delivery/delivery-services/{delivery_service}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryDeliveryServicesDestroy": {
+  "method": "DELETE",
+  "path": "/delivery/delivery-services/{delivery_service}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryDeliveryServicesUpdatePatch": {
+  "method": "PATCH",
+  "path": "/delivery/delivery-services/{delivery_service}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryDhlExpressCreateShipment": {
+  "method": "POST",
+  "path": "/delivery/dhl_express/create-shipment/{order}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryDhlExpressPrint": {
+  "method": "GET",
+  "path": "/delivery/dhl_express/print/{order}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryDhlExpressShipmentPrice": {
+  "method": "POST",
+  "path": "/delivery/dhl_express/shipment-price/{order}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryFedexCreateShipment": {
+  "method": "POST",
+  "path": "/delivery/fedex/create-shipment/{order}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryFedexPrint": {
+  "method": "GET",
+  "path": "/delivery/fedex/print/{order}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryFedexShipmentPrice": {
+  "method": "POST",
+  "path": "/delivery/fedex/shipment-price/{order}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryFedexUploadImage": {
+  "method": "POST",
+  "path": "/delivery/fedex/upload-image",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryMeestExpressCreateShipment": {
+  "method": "POST",
+  "path": "/delivery/meest_express/create-shipment/{order}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryMeestExpressSearchLocation": {
+  "method": "GET",
+  "path": "/delivery/meest_express/location",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryMeestExpressPrint": {
+  "method": "GET",
+  "path": "/delivery/meest_express/print/{order}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryMeestExpressShipmentPrice": {
+  "method": "POST",
+  "path": "/delivery/meest_express/shipment-price/{order}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryMeestExpressSearchWarehouse": {
+  "method": "GET",
+  "path": "/delivery/meest_express/warehouse",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryNovaposhtaCreateShipment": {
+  "method": "POST",
+  "path": "/delivery/novaposhta/create-shipment/{order}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryNovaposhtaSearchLocation": {
+  "method": "GET",
+  "path": "/delivery/novaposhta/location",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryNovaposhtaPrint": {
+  "method": "GET",
+  "path": "/delivery/novaposhta/print/{order}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryNovaposhtaShipmentPrice": {
+  "method": "POST",
+  "path": "/delivery/novaposhta/shipment-price/{order}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryNovaposhtaSearchStreet": {
+  "method": "GET",
+  "path": "/delivery/novaposhta/street",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryNovaposhtaSearchWarehouse": {
+  "method": "GET",
+  "path": "/delivery/novaposhta/warehouse",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryNovaposhtaInternationalCreateShipment": {
+  "method": "POST",
+  "path": "/delivery/novaposhta_international/create-shipment/{order}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryNovaposhtaInternationalPrint": {
+  "method": "GET",
+  "path": "/delivery/novaposhta_international/print/{order}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryNovaposhtaInternationalShipmentPrice": {
+  "method": "POST",
+  "path": "/delivery/novaposhta_international/shipment-price/{order}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryNovaposhtaInternationalSearchWarehouse": {
+  "method": "GET",
+  "path": "/delivery/novaposhta_international/warehouse",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryPrepCentersIndex": {
+  "method": "GET",
+  "path": "/delivery/prep-centers",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryPrepCentersCreate": {
+  "method": "POST",
+  "path": "/delivery/prep-centers",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryPrepCentersActive": {
+  "method": "GET",
+  "path": "/delivery/prep-centers/active",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryPrepCentersWarehouses": {
+  "method": "POST",
+  "path": "/delivery/prep-centers/warehouses",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryPrepCentersUpdate": {
+  "method": "PUT",
+  "path": "/delivery/prep-centers/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryPrepCentersDelete": {
+  "method": "DELETE",
+  "path": "/delivery/prep-centers/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryPrepCentersCheck": {
+  "method": "GET",
+  "path": "/delivery/prep-centers/{id}/check",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryPrepCentersMaterials": {
+  "method": "GET",
+  "path": "/delivery/prep-centers/{id}/materials",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryPrepCentersOffers": {
+  "method": "POST",
+  "path": "/delivery/prep-centers/{id}/offers/{order_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryPrepCentersProducts": {
+  "method": "GET",
+  "path": "/delivery/prep-centers/{id}/products",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryPrepCentersSend": {
+  "method": "POST",
+  "path": "/delivery/prep-centers/{id}/send/{order_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryPrepCentersSender": {
+  "method": "GET",
+  "path": "/delivery/prep-centers/{id}/sender",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryPrepCentersTracking": {
+  "method": "POST",
+  "path": "/delivery/prep-centers/{prepCenterRequest}/tracking",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryRozetkaCreateShipment": {
+  "method": "POST",
+  "path": "/delivery/rozetka/create-shipment/{order}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryRozetkaInit": {
+  "method": "GET",
+  "path": "/delivery/rozetka/init/{source}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryRozetkaPrint": {
+  "method": "GET",
+  "path": "/delivery/rozetka/print/{order}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryRozetkaDeliveryCreateShipment": {
+  "method": "POST",
+  "path": "/delivery/rozetka_delivery/create-shipment/{order}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryRozetkaDeliverySearchLocation": {
+  "method": "GET",
+  "path": "/delivery/rozetka_delivery/location",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryRozetkaDeliveryPrint": {
+  "method": "GET",
+  "path": "/delivery/rozetka_delivery/print/{order}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryRozetkaDeliverySearchWarehouse": {
+  "method": "GET",
+  "path": "/delivery/rozetka_delivery/warehouse",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryTrackingCallbackGet": {
+  "method": "GET",
+  "path": "/delivery/services/{id}/tracking/callback",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryTrackingCallbackPost": {
+  "method": "POST",
+  "path": "/delivery/services/{id}/tracking/callback",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryShipmentTemplatesIndex": {
+  "method": "GET",
+  "path": "/delivery/shipment-templates",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryShipmentTemplatesStore": {
+  "method": "POST",
+  "path": "/delivery/shipment-templates",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryShipmentTemplatesUpdatePut": {
+  "method": "PUT",
+  "path": "/delivery/shipment-templates/{shipment_template}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryShipmentTemplatesDestroy": {
+  "method": "DELETE",
+  "path": "/delivery/shipment-templates/{shipment_template}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryShipmentTemplatesUpdatePatch": {
+  "method": "PATCH",
+  "path": "/delivery/shipment-templates/{shipment_template}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryUkrposhtaCreateShipment": {
+  "method": "POST",
+  "path": "/delivery/ukrposhta/create-shipment/{order}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryUkrposhtaPrint": {
+  "method": "GET",
+  "path": "/delivery/ukrposhta/print/{order}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryUkrposhtaShipmentPrice": {
+  "method": "POST",
+  "path": "/delivery/ukrposhta/shipment-price/{order}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryUkrposhtaSearchLocation": {
+  "method": "GET",
+  "path": "/delivery/ukrposhta/location",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryUkrposhtaSearchWarehouse": {
+  "method": "GET",
+  "path": "/delivery/ukrposhta/warehouse",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryUpsCreateShipment": {
+  "method": "POST",
+  "path": "/delivery/ups/create-shipment/{order}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryUpsPrint": {
+  "method": "GET",
+  "path": "/delivery/ups/print/{order}",
+  "file": "app.6c73ad04.js"
+ },
+ "deliveryUpsShipmentPrice": {
+  "method": "POST",
+  "path": "/delivery/ups/shipment-price/{order}",
+  "file": "app.6c73ad04.js"
+ },
+ "storageUpload": {
+  "method": "POST",
+  "path": "/file-storage",
+  "file": "app.6c73ad04.js"
+ },
+ "storageAttach": {
+  "method": "POST",
+  "path": "/file-storage/attach/{model}/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "storageAttachValidate": {
+  "method": "POST",
+  "path": "/file-storage/attach/{model}/{id}/validate",
+  "file": "app.6c73ad04.js"
+ },
+ "storageDetach": {
+  "method": "DELETE",
+  "path": "/file-storage/detach/{attachment}",
+  "file": "app.6c73ad04.js"
+ },
+ "storageMediaDownload": {
+  "method": "GET",
+  "path": "/file-storage/media/download",
+  "file": "app.6c73ad04.js"
+ },
+ "storageRemoteThumbnail": {
+  "method": "GET",
+  "path": "/file-storage/remote",
+  "file": "app.6c73ad04.js"
+ },
+ "storageTempUpload": {
+  "method": "POST",
+  "path": "/file-storage/temp-upload/{group}",
+  "file": "app.6c73ad04.js"
+ },
+ "storageThumbnail": {
+  "method": "GET",
+  "path": "/file-storage/thumbnails/{path}",
+  "file": "app.6c73ad04.js"
+ },
+ "storageDownload": {
+  "method": "GET",
+  "path": "/file-storage/{file}",
+  "file": "app.6c73ad04.js"
+ },
+ "storageDelete": {
+  "method": "DELETE",
+  "path": "/file-storage/{file}",
+  "file": "app.6c73ad04.js"
+ },
+ "storageView": {
+  "method": "GET",
+  "path": "/file-storage/{file}/view",
+  "file": "app.6c73ad04.js"
+ },
+ "financeBillsList": {
+  "method": "GET",
+  "path": "/finance/bills",
+  "file": "app.6c73ad04.js"
+ },
+ "financeBillsStore": {
+  "method": "POST",
+  "path": "/finance/bills",
+  "file": "app.6c73ad04.js"
+ },
+ "financeBillsTransfer": {
+  "method": "PUT",
+  "path": "/finance/bills/transfer",
+  "file": "app.6c73ad04.js"
+ },
+ "financeBillsUpdate": {
+  "method": "PUT",
+  "path": "/finance/bills/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "financeBillsDestroy": {
+  "method": "DELETE",
+  "path": "/finance/bills/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "financeBillsBalanceAdjustment": {
+  "method": "PUT",
+  "path": "/finance/bills/{id}/balance-adjustment",
+  "file": "app.6c73ad04.js"
+ },
+ "financeBillsChangeStatus": {
+  "method": "PUT",
+  "path": "/finance/bills/{id}/change-status",
+  "file": "app.6c73ad04.js"
+ },
+ "financeCurrencyRatesList": {
+  "method": "GET",
+  "path": "/finance/currency-rates",
+  "file": "app.6c73ad04.js"
+ },
+ "financeCurrencyRatesUpdate": {
+  "method": "POST",
+  "path": "/finance/currency-rates",
+  "file": "app.6c73ad04.js"
+ },
+ "financeCurrencyRatesCommon": {
+  "method": "GET",
+  "path": "/finance/currency-rates/common",
+  "file": "app.6c73ad04.js"
+ },
+ "financeCurrencyRatesRefresh": {
+  "method": "POST",
+  "path": "/finance/currency-rates/refresh",
+  "file": "app.6c73ad04.js"
+ },
+ "financeExpenseTypesList": {
+  "method": "GET",
+  "path": "/finance/expense-types",
+  "file": "app.6c73ad04.js"
+ },
+ "financeExpenseTypesStore": {
+  "method": "POST",
+  "path": "/finance/expense-types",
+  "file": "app.6c73ad04.js"
+ },
+ "financeExpenseTypesUpdatePut": {
+  "method": "PUT",
+  "path": "/finance/expense-types/{expense_type}",
+  "file": "app.6c73ad04.js"
+ },
+ "financeExpenseTypesDestroy": {
+  "method": "DELETE",
+  "path": "/finance/expense-types/{expense_type}",
+  "file": "app.6c73ad04.js"
+ },
+ "financeExpenseTypesUpdatePatch": {
+  "method": "PATCH",
+  "path": "/finance/expense-types/{expense_type}",
+  "file": "app.6c73ad04.js"
+ },
+ "financeFiscalsCallbackGet": {
+  "method": "GET",
+  "path": "/finance/fiscal/{id}/callback",
+  "file": "app.6c73ad04.js"
+ },
+ "financeFiscalsCallback": {
+  "method": "POST",
+  "path": "/finance/fiscal/{id}/callback",
+  "file": "app.6c73ad04.js"
+ },
+ "financeFiscalsList": {
+  "method": "GET",
+  "path": "/finance/fiscals",
+  "file": "app.6c73ad04.js"
+ },
+ "financeFiscalsStore": {
+  "method": "POST",
+  "path": "/finance/fiscals",
+  "file": "app.6c73ad04.js"
+ },
+ "financeFiscalsAuth": {
+  "method": "POST",
+  "path": "/finance/fiscals/auth",
+  "file": "app.6c73ad04.js"
+ },
+ "financeFiscalsCheck": {
+  "method": "GET",
+  "path": "/finance/fiscals/fiscal/{payment}",
+  "file": "app.6c73ad04.js"
+ },
+ "financeFiscalsCancel": {
+  "method": "PUT",
+  "path": "/finance/fiscals/fiscal/{payment}",
+  "file": "app.6c73ad04.js"
+ },
+ "financeFiscalsUpdate": {
+  "method": "PUT",
+  "path": "/finance/fiscals/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "financeFiscalsDestroy": {
+  "method": "DELETE",
+  "path": "/finance/fiscals/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "financeFiscalsPrint": {
+  "method": "GET",
+  "path": "/finance/fiscals/{id}/print/{uuid}",
+  "file": "app.6c73ad04.js"
+ },
+ "financeFiscalsShift": {
+  "method": "POST",
+  "path": "/finance/fiscals/{id}/{action}",
+  "file": "app.6c73ad04.js"
+ },
+ "financeFiscalsFiscalize": {
+  "method": "POST",
+  "path": "/finance/fiscals/{register}/fiscal/{payment}",
+  "file": "app.6c73ad04.js"
+ },
+ "financePaymentGatewaysList": {
+  "method": "GET",
+  "path": "/finance/payment-gateways",
+  "file": "app.6c73ad04.js"
+ },
+ "financePaymentGatewaysStore": {
+  "method": "POST",
+  "path": "/finance/payment-gateways",
+  "file": "app.6c73ad04.js"
+ },
+ "financePaymentGatewaysNovapayBusinessAccounts": {
+  "method": "POST",
+  "path": "/finance/payment-gateways/novapay-business/init/accounts",
+  "file": "app.6c73ad04.js"
+ },
+ "financePaymentGatewaysNovapayBusinessAuth": {
+  "method": "POST",
+  "path": "/finance/payment-gateways/novapay-business/init/auth",
+  "file": "app.6c73ad04.js"
+ },
+ "financePaymentGatewaysNovapayBusinessClients": {
+  "method": "POST",
+  "path": "/finance/payment-gateways/novapay-business/init/clients",
+  "file": "app.6c73ad04.js"
+ },
+ "financePaymentGatewaysUpdate": {
+  "method": "PUT",
+  "path": "/finance/payment-gateways/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "financePaymentGatewaysDestroy": {
+  "method": "DELETE",
+  "path": "/finance/payment-gateways/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "financePaymentGatewaysDropInvoice": {
+  "method": "POST",
+  "path": "/finance/payment-gateways/{id}/drop_invoice/{payment_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "financePaymentGatewaysInvoice": {
+  "method": "POST",
+  "path": "/finance/payment-gateways/{id}/invoice",
+  "file": "app.6c73ad04.js"
+ },
+ "financePaymentGatewaysAccounts": {
+  "method": "POST",
+  "path": "/finance/payment-gateways/{integration}/accounts",
+  "file": "app.6c73ad04.js"
+ },
+ "financePaymentMethodsList": {
+  "method": "GET",
+  "path": "/finance/payment-methods",
+  "file": "app.6c73ad04.js"
+ },
+ "financePaymentMethodsStore": {
+  "method": "POST",
+  "path": "/finance/payment-methods",
+  "file": "app.6c73ad04.js"
+ },
+ "financePaymentMethodsUpdatePut": {
+  "method": "PUT",
+  "path": "/finance/payment-methods/{payment_method}",
+  "file": "app.6c73ad04.js"
+ },
+ "financePaymentMethodsDestroy": {
+  "method": "DELETE",
+  "path": "/finance/payment-methods/{payment_method}",
+  "file": "app.6c73ad04.js"
+ },
+ "financePaymentMethodsUpdatePatch": {
+  "method": "PATCH",
+  "path": "/finance/payment-methods/{payment_method}",
+  "file": "app.6c73ad04.js"
+ },
+ "financePaymentsList": {
+  "method": "GET",
+  "path": "/finance/payments",
+  "file": "app.6c73ad04.js"
+ },
+ "financePaymentsStore": {
+  "method": "POST",
+  "path": "/finance/payments",
+  "file": "app.6c73ad04.js"
+ },
+ "financePaymentsConfig": {
+  "method": "GET",
+  "path": "/finance/payments/config",
+  "file": "app.6c73ad04.js"
+ },
+ "financePaymentsExpensesStore": {
+  "method": "POST",
+  "path": "/finance/payments/expenses",
+  "file": "app.6c73ad04.js"
+ },
+ "financePaymentsUpdate": {
+  "method": "PUT",
+  "path": "/finance/payments/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "financePaymentsCancel": {
+  "method": "PUT",
+  "path": "/finance/payments/{id}/cancel",
+  "file": "app.6c73ad04.js"
+ },
+ "financeTransactionsList": {
+  "method": "GET",
+  "path": "/finance/transactions",
+  "file": "app.6c73ad04.js"
+ },
+ "financeTransactionsConfig": {
+  "method": "GET",
+  "path": "/finance/transactions/config",
+  "file": "app.6c73ad04.js"
+ },
+ "financeTransactionsUnlinked": {
+  "method": "GET",
+  "path": "/finance/transactions/unlinked",
+  "file": "app.6c73ad04.js"
+ },
+ "financeTransactionsArchive": {
+  "method": "POST",
+  "path": "/finance/transactions/{id}/archive",
+  "file": "app.6c73ad04.js"
+ },
+ "financePaymentGatewaysCallbackGet": {
+  "method": "GET",
+  "path": "/finance/{id}/callback",
+  "file": "app.6c73ad04.js"
+ },
+ "financePaymentGatewaysCallback": {
+  "method": "POST",
+  "path": "/finance/{id}/callback",
+  "file": "app.6c73ad04.js"
+ },
+ "importList": {
+  "method": "GET",
+  "path": "/import",
+  "file": "app.6c73ad04.js"
+ },
+ "importParse": {
+  "method": "POST",
+  "path": "/import",
+  "file": "app.6c73ad04.js"
+ },
+ "importPreview": {
+  "method": "GET",
+  "path": "/import/preview",
+  "file": "app.6c73ad04.js"
+ },
+ "importRevert": {
+  "method": "POST",
+  "path": "/import/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "leadsIndex": {
+  "method": "GET",
+  "path": "/leads",
+  "file": "app.6c73ad04.js"
+ },
+ "leadsStore": {
+  "method": "POST",
+  "path": "/leads",
+  "file": "app.6c73ad04.js"
+ },
+ "leadsListByClient": {
+  "method": "GET",
+  "path": "/leads/by-client/{client_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "leadsListByCompany": {
+  "method": "GET",
+  "path": "/leads/by-company/{company_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "leadsListByContact": {
+  "method": "GET",
+  "path": "/leads/by-contact/{contact_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "leadsListByIdentify": {
+  "method": "GET",
+  "path": "/leads/identify",
+  "file": "app.6c73ad04.js"
+ },
+ "leadsMerge": {
+  "method": "POST",
+  "path": "/leads/merge/{from_id}/{to_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "leadsPipelinesList": {
+  "method": "GET",
+  "path": "/leads/pipelines",
+  "file": "app.6c73ad04.js"
+ },
+ "leadsPipelinesCreate": {
+  "method": "POST",
+  "path": "/leads/pipelines",
+  "file": "app.6c73ad04.js"
+ },
+ "leadsPipelinesDeskDefault": {
+  "method": "GET",
+  "path": "/leads/pipelines/desk",
+  "file": "app.6c73ad04.js"
+ },
+ "leadsPipelinesDesk": {
+  "method": "GET",
+  "path": "/leads/pipelines/desk/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "leadsPipelinesReorder": {
+  "method": "POST",
+  "path": "/leads/pipelines/reorder",
+  "file": "app.6c73ad04.js"
+ },
+ "leadsPipelinesUpdate": {
+  "method": "PUT",
+  "path": "/leads/pipelines/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "leadsPipelinesDestroy": {
+  "method": "DELETE",
+  "path": "/leads/pipelines/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "leadsStatusesCreate": {
+  "method": "POST",
+  "path": "/leads/statuses",
+  "file": "app.6c73ad04.js"
+ },
+ "leadsStatusesList": {
+  "method": "GET",
+  "path": "/leads/statuses/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "leadsStatusesUpdate": {
+  "method": "PUT",
+  "path": "/leads/statuses/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "leadsStatusesDestroy": {
+  "method": "DELETE",
+  "path": "/leads/statuses/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "leadsStatusesCards": {
+  "method": "GET",
+  "path": "/leads/statuses/{id}/cards",
+  "file": "app.6c73ad04.js"
+ },
+ "leadsStatusesReorder": {
+  "method": "PUT",
+  "path": "/leads/statuses/{id}/reorder",
+  "file": "app.6c73ad04.js"
+ },
+ "leadsShow": {
+  "method": "GET",
+  "path": "/leads/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "leadsUpdate": {
+  "method": "PUT",
+  "path": "/leads/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "leadsCopy": {
+  "method": "POST",
+  "path": "/leads/{id}/copy",
+  "file": "app.6c73ad04.js"
+ },
+ "leadsComplete": {
+  "method": "PUT",
+  "path": "/leads/{id}/order",
+  "file": "app.6c73ad04.js"
+ },
+ "leadsAddProduct": {
+  "method": "POST",
+  "path": "/leads/{id}/products",
+  "file": "app.6c73ad04.js"
+ },
+ "loyaltyProgramsList": {
+  "method": "GET",
+  "path": "/loyalty",
+  "file": "app.6c73ad04.js"
+ },
+ "loyaltyProgramsStore": {
+  "method": "POST",
+  "path": "/loyalty",
+  "file": "app.6c73ad04.js"
+ },
+ "loyaltyClientDiscount": {
+  "method": "GET",
+  "path": "/loyalty/client/{clientId}/by/source/{sourceId}",
+  "file": "app.6c73ad04.js"
+ },
+ "loyaltyProgramsUpdate": {
+  "method": "PUT",
+  "path": "/loyalty/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "loyaltyProgramsDestroy": {
+  "method": "DELETE",
+  "path": "/loyalty/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "loyaltyProgramsToggle": {
+  "method": "PUT",
+  "path": "/loyalty/{id}/toggle",
+  "file": "app.6c73ad04.js"
+ },
+ "loyaltyLevelsStore": {
+  "method": "POST",
+  "path": "/loyalty/{program}/levels",
+  "file": "app.6c73ad04.js"
+ },
+ "loyaltyLevelsUpdate": {
+  "method": "PUT",
+  "path": "/loyalty/{program}/levels/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "loyaltyLevelsDestroy": {
+  "method": "DELETE",
+  "path": "/loyalty/{program}/levels/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "manufacturingIndex": {
+  "method": "GET",
+  "path": "/manufacturing",
+  "file": "app.6c73ad04.js"
+ },
+ "manufacturingNewCount": {
+  "method": "GET",
+  "path": "/manufacturing/new-count",
+  "file": "app.6c73ad04.js"
+ },
+ "manufacturingViewed": {
+  "method": "PUT",
+  "path": "/manufacturing/viewed",
+  "file": "app.6c73ad04.js"
+ },
+ "manufacturingView": {
+  "method": "GET",
+  "path": "/manufacturing/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "manufacturingUpdate": {
+  "method": "PUT",
+  "path": "/manufacturing/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "manufacturingSplit": {
+  "method": "POST",
+  "path": "/manufacturing/{id}/split",
+  "file": "app.6c73ad04.js"
+ },
+ "manufacturingChildren": {
+  "method": "GET",
+  "path": "/manufacturing/{parent_id}/children",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersList": {
+  "method": "GET",
+  "path": "/orders",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersCreate": {
+  "method": "POST",
+  "path": "/orders",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersByClient": {
+  "method": "GET",
+  "path": "/orders/client/{client_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersByClientDetails": {
+  "method": "GET",
+  "path": "/orders/client/{client_id}/details",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersByCompany": {
+  "method": "GET",
+  "path": "/orders/company/{company_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersGroupsIndex": {
+  "method": "GET",
+  "path": "/orders/groups",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersMerge": {
+  "method": "POST",
+  "path": "/orders/merge",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersShippingListsList": {
+  "method": "GET",
+  "path": "/orders/shipping-list",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersShippingListsByList": {
+  "method": "GET",
+  "path": "/orders/shipping-list/orders/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersShippingListsShow": {
+  "method": "GET",
+  "path": "/orders/shipping-list/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersShippingListsUpdate": {
+  "method": "PUT",
+  "path": "/orders/shipping-list/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersShippingListsCreate": {
+  "method": "POST",
+  "path": "/orders/shipping-list/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersShippingListsDestroy": {
+  "method": "DELETE",
+  "path": "/orders/shipping-list/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersShippingListsPrint": {
+  "method": "GET",
+  "path": "/orders/shipping-list/{id}/print",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersShippingListsPrintShipments": {
+  "method": "GET",
+  "path": "/orders/shipping-list/{id}/print-shipments",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersStatusesIndex": {
+  "method": "GET",
+  "path": "/orders/statuses",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersStatusesStore": {
+  "method": "POST",
+  "path": "/orders/statuses",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersReorder": {
+  "method": "POST",
+  "path": "/orders/statuses/reorder",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersStatusesUpdatePut": {
+  "method": "PUT",
+  "path": "/orders/statuses/{status}",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersStatusesDestroy": {
+  "method": "DELETE",
+  "path": "/orders/statuses/{status}",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersStatusesUpdatePatch": {
+  "method": "PATCH",
+  "path": "/orders/statuses/{status}",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersSourceSyncMissing": {
+  "method": "POST",
+  "path": "/orders/sync",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersTagsIndex": {
+  "method": "GET",
+  "path": "/orders/tags",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersTagsStore": {
+  "method": "POST",
+  "path": "/orders/tags",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersTagsUpdatePut": {
+  "method": "PUT",
+  "path": "/orders/tags/{tag}",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersTagsDestroy": {
+  "method": "DELETE",
+  "path": "/orders/tags/{tag}",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersTagsUpdatePatch": {
+  "method": "PATCH",
+  "path": "/orders/tags/{tag}",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersTotals": {
+  "method": "GET",
+  "path": "/orders/totals",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersView": {
+  "method": "GET",
+  "path": "/orders/{order_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersUpdate": {
+  "method": "PUT",
+  "path": "/orders/{order_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersClientUpdate": {
+  "method": "PUT",
+  "path": "/orders/{order_id}/client",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersToggleDiscount": {
+  "method": "POST",
+  "path": "/orders/{order_id}/discount",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersGetLoyalty": {
+  "method": "GET",
+  "path": "/orders/{order_id}/loyalty",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersProductsCreate": {
+  "method": "POST",
+  "path": "/orders/{order_id}/products",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersProductsUpdate": {
+  "method": "PUT",
+  "path": "/orders/{order_id}/products/{product_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersProductsDelete": {
+  "method": "DELETE",
+  "path": "/orders/{order_id}/products/{product_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersProductsCopy": {
+  "method": "POST",
+  "path": "/orders/{order_id}/products/{product_id}/copy",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersProductsShipmentTypeIndex": {
+  "method": "GET",
+  "path": "/orders/{order_id}/products/{product_id}/shipment-type",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersProductsShipmentTypeStore": {
+  "method": "PUT",
+  "path": "/orders/{order_id}/products/{product_id}/shipment-type",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersProductsShipmentTypeDelete": {
+  "method": "DELETE",
+  "path": "/orders/{order_id}/products/{product_id}/shipment-type",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersSourceMarkAsShipped": {
+  "method": "PUT",
+  "path": "/orders/{order_id}/source/mark-as-shipped",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersSourceSyncExisting": {
+  "method": "PUT",
+  "path": "/orders/{order_id}/source/sync",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersAttachStatus": {
+  "method": "POST",
+  "path": "/orders/{order_id}/status/{status_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersSyncAssigned": {
+  "method": "POST",
+  "path": "/orders/{order}/assigned",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersCopy": {
+  "method": "POST",
+  "path": "/orders/{order}/copy",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersExpenses": {
+  "method": "GET",
+  "path": "/orders/{order}/expenses",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersUtmTags": {
+  "method": "PUT",
+  "path": "/orders/{order}/marketing",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersShipping": {
+  "method": "PUT",
+  "path": "/orders/{order}/shipping",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersShippingHistory": {
+  "method": "GET",
+  "path": "/orders/{order}/shipping-history",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersShippingHistorySync": {
+  "method": "POST",
+  "path": "/orders/{order}/shipping-history/sync",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersSyncTags": {
+  "method": "POST",
+  "path": "/orders/{order}/tags",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersAttachTag": {
+  "method": "POST",
+  "path": "/orders/{order}/tags/{tag}",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersDetachTag": {
+  "method": "POST",
+  "path": "/orders/{order}/tags/{tag}/detach",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersDeleteTrackingCode": {
+  "method": "DELETE",
+  "path": "/orders/{order}/tracking",
+  "file": "app.6c73ad04.js"
+ },
+ "ordersAddTrackingCode": {
+  "method": "POST",
+  "path": "/orders/{order}/tracking/add",
+  "file": "app.6c73ad04.js"
+ },
+ "sourcesList": {
+  "method": "GET",
+  "path": "/sources",
+  "file": "app.6c73ad04.js"
+ },
+ "sourcesCreate": {
+  "method": "POST",
+  "path": "/sources",
+  "file": "app.6c73ad04.js"
+ },
+ "sourcesConfigShopListing": {
+  "method": "POST",
+  "path": "/sources/config/shop-listing",
+  "file": "app.6c73ad04.js"
+ },
+ "sourcesConfigShopListingBySource": {
+  "method": "POST",
+  "path": "/sources/config/shop-listing/{source_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "sourcesLeadsForms": {
+  "method": "POST",
+  "path": "/sources/leads/{driver}/forms",
+  "file": "app.6c73ad04.js"
+ },
+ "sourcesLeadsFields": {
+  "method": "POST",
+  "path": "/sources/leads/{driver}/forms/{form_id}/fields",
+  "file": "app.6c73ad04.js"
+ },
+ "sourcesLeadsPages": {
+  "method": "POST",
+  "path": "/sources/leads/{driver}/pages",
+  "file": "app.6c73ad04.js"
+ },
+ "sourcesConfigPreauthorize": {
+  "method": "POST",
+  "path": "/sources/preauthorize/{driver}",
+  "file": "app.6c73ad04.js"
+ },
+ "sourcesUpdate": {
+  "method": "PUT",
+  "path": "/sources/{source_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "sourcesDelete": {
+  "method": "DELETE",
+  "path": "/sources/{source_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "stocksList": {
+  "method": "GET",
+  "path": "/stocks",
+  "file": "app.6c73ad04.js"
+ },
+ "stocksFiltersData": {
+  "method": "GET",
+  "path": "/stocks/filters_data",
+  "file": "app.6c73ad04.js"
+ },
+ "stocksInventoriesList": {
+  "method": "GET",
+  "path": "/stocks/inventories/{movement}",
+  "file": "app.6c73ad04.js"
+ },
+ "stocksReceiptCreate": {
+  "method": "POST",
+  "path": "/stocks/inventory/batch",
+  "file": "app.6c73ad04.js"
+ },
+ "stocksReceiptUpdate": {
+  "method": "POST",
+  "path": "/stocks/inventory/batch/{movement_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "stocksMovementCancel": {
+  "method": "POST",
+  "path": "/stocks/inventory/revert/{movement_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "stocksStocktakingCreate": {
+  "method": "POST",
+  "path": "/stocks/inventory/stocktaking",
+  "file": "app.6c73ad04.js"
+ },
+ "stocksStocktakingUpdate": {
+  "method": "POST",
+  "path": "/stocks/inventory/stocktaking/{movement_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "stocksTransferCreate": {
+  "method": "POST",
+  "path": "/stocks/inventory/transfer",
+  "file": "app.6c73ad04.js"
+ },
+ "stocksTransferUpdate": {
+  "method": "POST",
+  "path": "/stocks/inventory/transfer/{movement_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "stocksMovementsList": {
+  "method": "GET",
+  "path": "/stocks/movements",
+  "file": "app.6c73ad04.js"
+ },
+ "stocksMovementsView": {
+  "method": "GET",
+  "path": "/stocks/movements/{movement_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "stocksStat": {
+  "method": "GET",
+  "path": "/stocks/stat",
+  "file": "app.6c73ad04.js"
+ },
+ "stocksWarehousesList": {
+  "method": "GET",
+  "path": "/stocks/warehouses",
+  "file": "app.6c73ad04.js"
+ },
+ "stocksWarehousesStore": {
+  "method": "POST",
+  "path": "/stocks/warehouses",
+  "file": "app.6c73ad04.js"
+ },
+ "stocksWarehousesUpdate": {
+  "method": "PUT",
+  "path": "/stocks/warehouses/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "stocksWarehousesDeactivate": {
+  "method": "POST",
+  "path": "/stocks/warehouses/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "stocksWarehousesDestroy": {
+  "method": "DELETE",
+  "path": "/stocks/warehouses/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "stocksHistory": {
+  "method": "GET",
+  "path": "/stocks/{offer_id}/history",
+  "file": "app.6c73ad04.js"
+ },
+ "suppliersIndex": {
+  "method": "GET",
+  "path": "/suppliers",
+  "file": "app.6c73ad04.js"
+ },
+ "suppliersStore": {
+  "method": "POST",
+  "path": "/suppliers",
+  "file": "app.6c73ad04.js"
+ },
+ "suppliersShow": {
+  "method": "GET",
+  "path": "/suppliers/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "suppliersUpdate": {
+  "method": "PUT",
+  "path": "/suppliers/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "suppliersDestroy": {
+  "method": "DELETE",
+  "path": "/suppliers/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "suppliersOrders": {
+  "method": "GET",
+  "path": "/suppliers/{id}/orders",
+  "file": "app.6c73ad04.js"
+ },
+ "tasksIndex": {
+  "method": "GET",
+  "path": "/tasks",
+  "file": "app.6c73ad04.js"
+ },
+ "tasksStore": {
+  "method": "POST",
+  "path": "/tasks",
+  "file": "app.6c73ad04.js"
+ },
+ "tasksExpiredCount": {
+  "method": "GET",
+  "path": "/tasks/expired-count",
+  "file": "app.6c73ad04.js"
+ },
+ "tasksSearch": {
+  "method": "GET",
+  "path": "/tasks/search",
+  "file": "app.6c73ad04.js"
+ },
+ "tasksView": {
+  "method": "GET",
+  "path": "/tasks/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "tasksUpdate": {
+  "method": "PUT",
+  "path": "/tasks/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "tasksDestroy": {
+  "method": "DELETE",
+  "path": "/tasks/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "tasksTasked": {
+  "method": "GET",
+  "path": "/tasks/{type}/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "tenantPing": {
+  "method": "GET",
+  "path": "/tenant/ping",
+  "file": "app.6c73ad04.js"
+ },
+ "tenantUserInfo": {
+  "method": "GET",
+  "path": "/tenant/user-info/{code}",
+  "file": "app.6c73ad04.js"
+ },
+ "tenantRestore": {
+  "method": "POST",
+  "path": "/tenant/restore",
+  "file": "app.6c73ad04.js"
+ },
+ "tenantBackup": {
+  "method": "POST",
+  "path": "/tenant/backup",
+  "file": "app.6c73ad04.js"
+ },
+ "usersList": {
+  "method": "GET",
+  "path": "/users",
+  "file": "app.6c73ad04.js"
+ },
+ "usersCreate": {
+  "method": "POST",
+  "path": "/users",
+  "file": "app.6c73ad04.js"
+ },
+ "usersPermissionsList": {
+  "method": "GET",
+  "path": "/users/permissions",
+  "file": "app.6c73ad04.js"
+ },
+ "usersRolesList": {
+  "method": "GET",
+  "path": "/users/roles",
+  "file": "app.6c73ad04.js"
+ },
+ "usersRolesCreate": {
+  "method": "POST",
+  "path": "/users/roles",
+  "file": "app.6c73ad04.js"
+ },
+ "usersRolesUpdate": {
+  "method": "PUT",
+  "path": "/users/roles/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "usersRolesDelete": {
+  "method": "DELETE",
+  "path": "/users/roles/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "usersUpdate": {
+  "method": "PUT",
+  "path": "/users/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "widgetsList": {
+  "method": "GET",
+  "path": "/widgets",
+  "file": "app.6c73ad04.js"
+ },
+ "widgetsCreate": {
+  "method": "POST",
+  "path": "/widgets",
+  "file": "app.6c73ad04.js"
+ },
+ "widgetsView": {
+  "method": "GET",
+  "path": "/widgets/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "widgetsUpdate": {
+  "method": "PUT",
+  "path": "/widgets/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "widgetsDelete": {
+  "method": "DELETE",
+  "path": "/widgets/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "widgetsToggle": {
+  "method": "PUT",
+  "path": "/widgets/{id}/toggle",
+  "file": "app.6c73ad04.js"
+ },
+ "testApiChannelsCreate": {
+  "method": "POST",
+  "path": "/test-api/channels/create",
+  "file": "app.6c73ad04.js"
+ },
+ "testApiContactsCreate": {
+  "method": "POST",
+  "path": "/test-api/contacts/create",
+  "file": "app.6c73ad04.js"
+ },
+ "testApiConversationsCreate": {
+  "method": "POST",
+  "path": "/test-api/conversations/create",
+  "file": "app.6c73ad04.js"
+ },
+ "testApiMessagesCreate": {
+  "method": "POST",
+  "path": "/test-api/messages/create",
+  "file": "app.6c73ad04.js"
+ },
+ "testApiMockMessagesReceived": {
+  "method": "POST",
+  "path": "/test-api/mock/messages/received",
+  "file": "app.6c73ad04.js"
+ },
+ "testApiPaymentsExternalCreate": {
+  "method": "POST",
+  "path": "/test-api/payments/external/create",
+  "file": "app.6c73ad04.js"
+ },
+ "systemOauthInitialize": {
+  "method": "POST",
+  "path": "/initialize/{provider}",
+  "file": "app.6c73ad04.js"
+ },
+ "systemOauthRedirect": {
+  "method": "GET",
+  "path": "/redirect/{provider}/{session_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "systemOauthCallbackGet": {
+  "method": "GET",
+  "path": "/callback/{provider}",
+  "file": "app.6c73ad04.js"
+ },
+ "systemOauthCallbackPost": {
+  "method": "POST",
+  "path": "/callback/{provider}",
+  "file": "app.6c73ad04.js"
+ },
+ "systemOauthCallbackPumb": {
+  "method": "POST",
+  "path": "/callback/pumb",
+  "file": "app.6c73ad04.js"
+ },
+ "systemOauthResult": {
+  "method": "GET",
+  "path": "/result/{provider}/{session_id}",
+  "file": "app.6c73ad04.js"
+ },
+ "systemAdminTenant": {
+  "method": "GET",
+  "path": "/{uuid}",
+  "file": "app.6c73ad04.js"
+ },
+ "systemAdminBalance": {
+  "method": "POST",
+  "path": "/balance/{id}/{uuid}",
+  "file": "app.6c73ad04.js"
+ },
+ "systemAdminActivateNfr": {
+  "method": "POST",
+  "path": "/activate_nfr/{id}/{uuid}",
+  "file": "app.6c73ad04.js"
+ },
+ "systemAdminSync": {
+  "method": "GET",
+  "path": "/sync",
+  "file": "app.6c73ad04.js"
+ },
+ "systemAdminDemo": {
+  "method": "GET",
+  "path": "/demo/{email}",
+  "file": "app.6c73ad04.js"
+ },
+ "systemAdminRestoreTenant": {
+  "method": "POST",
+  "path": "/restore_tenant/{id}",
+  "file": "app.6c73ad04.js"
+ },
+ "systemAdminReplaceEmail": {
+  "method": "POST",
+  "path": "/email/{uuid}",
+  "file": "app.6c73ad04.js"
+ },
+ "systemAdminToggleApiToken": {
+  "method": "POST",
+  "path": "/toggle_api_token/{uuid}",
+  "file": "app.6c73ad04.js"
+ },
+ "systemAdminRateChannel": {
+  "method": "POST",
+  "path": "/rate_channel/{uuid}/{channel_id}",
+  "file": "app.6c73ad04.js"
+ }
+}
