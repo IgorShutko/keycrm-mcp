@@ -31,6 +31,9 @@ except Exception:  # pragma: no cover
     pass
 
 
+# Where snapshots and downloaded files go. Defaults to the code folder.
+DATA_DIR = Path(os.environ.get("KEYCRM_DATA_DIR") or Path(__file__).parent)
+
 UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
@@ -82,7 +85,7 @@ class KeyCrm:
         env = os.environ.get
         self.domain = (domain or env("KEYCRM_DOMAIN") or "").strip()
         if not self.domain:
-            raise RuntimeError("KEYCRM_DOMAIN is not set: put your account subdomain into .env")
+            raise KeyCrmError(0, "KEYCRM_DOMAIN is not set: pass your account subdomain via env or .env")
         self.email = (email or env("KEYCRM_EMAIL") or "").strip()
         self.password = (password or env("KEYCRM_PASSWORD") or "").strip()
         self._api_token = (api_token or env("KEYCRM_API_TOKEN") or "").strip() or None

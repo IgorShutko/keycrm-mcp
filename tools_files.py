@@ -15,9 +15,9 @@ import time
 from pathlib import Path
 from typing import Any
 
-from keycrm_client import KeyCrmError, client, dumps
+from keycrm_client import DATA_DIR, KeyCrmError, client, dumps
 
-EXPORTS = Path(__file__).with_name("exports")
+EXPORTS = DATA_DIR / "exports"
 
 
 def _ok(data: Any) -> str:
@@ -102,7 +102,7 @@ def files(action: str = "list_order", order_id: int | None = None,
         if act == "download":
             _need(file_id, "file_id")
             r = c.internal_bytes("GET", f"/file-storage/{file_id}")
-            EXPORTS.mkdir(exist_ok=True)
+            EXPORTS.mkdir(parents=True, exist_ok=True)
             target = EXPORTS / f"file_{file_id}_{int(time.time())}.bin"
             target.write_bytes(r.content)
             return _ok({"file": str(target), "bytes": len(r.content),

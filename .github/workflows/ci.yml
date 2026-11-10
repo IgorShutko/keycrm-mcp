@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: ${{ matrix.python }}
+      # No KeyCRM account in CI: the server must import, register all 24 tools
+      # and report missing credentials in plain words.
+      - run: uv run python test_offline.py
+      # The install path from the README: build the package, import the entry point.
+      - run: uvx --from . python -c "import server"

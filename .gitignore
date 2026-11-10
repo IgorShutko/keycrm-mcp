@@ -14,3 +14,6 @@ demo/*.json
 Thumbs.db
 .vscode/
 .idea/
+
+# uv
+uv.lock

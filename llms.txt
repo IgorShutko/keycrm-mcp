@@ -1,0 +1,30 @@
+# keycrm-mcp
+
+> Unofficial MCP (Model Context Protocol) server that connects AI agents (Claude, Cursor, Codex, Gemini CLI and others) to KeyCRM, a Ukrainian CRM for e-commerce, marketplaces and messengers. 24 stdio tools over two channels: the documented official OpenAPI (59 operations) and the undocumented internal web-UI API (572 routes in 41 groups, recovered from the SPA bundle v33.0.10). MIT licensed, written in Python, runs on the user's own machine.
+
+Key facts: Python 3.11+; install with `uvx --from git+https://github.com/IgorShutko/keycrm-mcp keycrm-mcp`; configured by env vars `KEYCRM_DOMAIN`, `KEYCRM_EMAIL`, `KEYCRM_PASSWORD`; the official API key is discovered automatically; pipeline lead-card deletion and dangerous batch routes are blocked in the server; not affiliated with or supported by KeyCRM; internal routes can change without notice.
+
+## Start here
+
+- [README (Ukrainian, canonical)](https://github.com/IgorShutko/keycrm-mcp/blob/main/README.md): what the server does, quick start, tool table, platform limits, FAQ.
+- [README (English)](https://github.com/IgorShutko/keycrm-mcp/blob/main/README.en.md): same content in English.
+- [README (Russian)](https://github.com/IgorShutko/keycrm-mcp/blob/main/README.ru.md): same content in Russian.
+
+## Tools
+
+- [Tool reference](https://github.com/IgorShutko/keycrm-mcp/blob/main/docs/TOOLS.md): all 24 tools with every action, parameter and sample response (Russian).
+- [Action matrix](https://github.com/IgorShutko/keycrm-mcp/blob/main/docs/ACTION_MATRIX.md): result of a read-only sweep over every action on a live account.
+
+## KeyCRM API knowledge
+
+- [Reverse engineering notes](https://github.com/IgorShutko/keycrm-mcp/blob/main/docs/REVERSE_ENGINEERING.md): how the internal API was recovered, auth flow, list contract, where it misbehaves, how to repeat on a new build (Russian).
+- [API reference](https://github.com/IgorShutko/keycrm-mcp/blob/main/docs/API_REFERENCE.md): map of both APIs by group, entity mapping between internal and official (Russian).
+- [Endpoint status](https://github.com/IgorShutko/keycrm-mcp/blob/main/docs/ENDPOINTS_STATUS.md): verification status of each of the 572 internal routes (Russian).
+- [Route catalog (JSON)](https://raw.githubusercontent.com/IgorShutko/keycrm-mcp/main/endpoints.json): machine-readable map, method and path per route.
+
+## Install and operate
+
+- [Quick start](https://github.com/IgorShutko/keycrm-mcp/blob/main/docs/QUICKSTART.md): manual setup from a clone, client configs, troubleshooting (Russian).
+- [Cookbook](https://github.com/IgorShutko/keycrm-mcp/blob/main/docs/COOKBOOK.md): Python recipes against the same client (Russian).
+- [Security model](https://github.com/IgorShutko/keycrm-mcp/blob/main/SECURITY.md): where credentials live, what stays on disk, how to report a vulnerability.
+- [Incident and safety rules](https://github.com/IgorShutko/keycrm-mcp/blob/main/docs/INCIDENT.md): the batch-delete route that wipes whole pipeline columns and why it is blocked (Russian).

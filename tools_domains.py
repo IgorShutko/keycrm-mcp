@@ -43,7 +43,7 @@ from typing import Any
 
 from mcp.server.fastmcp import FastMCP
 
-from keycrm_client import KeyCrmError, client, compact, dumps
+from keycrm_client import DATA_DIR, KeyCrmError, client, compact, dumps
 
 # --------------------------------------------------------------- projections
 BILLS = ["id", "name", "type", "amount", "balance", "currency_code", "status",
@@ -609,8 +609,8 @@ def register(mcp: FastMCP) -> None:
                     import time as _time
                     from pathlib import Path as _Path
                     r = c.internal_bytes("POST", "/config/documents/preview-pdf", body=body)
-                    out_dir = _Path(__file__).with_name("exports")
-                    out_dir.mkdir(exist_ok=True)
+                    out_dir = DATA_DIR / "exports"
+                    out_dir.mkdir(parents=True, exist_ok=True)
                     target = out_dir / f"document_preview_{int(_time.time())}.pdf"
                     target.write_bytes(r.content)
                     return _ok({"file": str(target), "bytes": len(r.content),

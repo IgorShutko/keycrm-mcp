@@ -1,0 +1,24 @@
+[project]
+name = "keycrm-mcp"
+version = "0.1.0"
+description = "Unofficial MCP server for KeyCRM: internal web-UI API (572 routes) plus the official OpenAPI. 24 tools."
+readme = "README.en.md"
+license = "MIT"
+requires-python = ">=3.11"
+authors = [{ name = "Igor Shutko" }]
+keywords = ["mcp", "mcp-server", "model-context-protocol", "keycrm", "crm", "claude", "cursor", "ai-agents", "ukraine"]
+dependencies = ["mcp>=1.2,<2", "httpx>=0.27", "python-dotenv>=1.0"]
+
+[project.urls]
+Repository = "https://github.com/IgorShutko/keycrm-mcp"
+Issues = "https://github.com/IgorShutko/keycrm-mcp/issues"
+
+[project.scripts]
+keycrm-mcp = "server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+include = ["server.py", "tools_domains.py", "tools_files.py", "keycrm_client.py", "endpoints_catalog.py", "crm_cli.py", "endpoints.json"]

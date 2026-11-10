@@ -21,7 +21,7 @@ logging.getLogger("httpx").setLevel(logging.WARNING)
 logging.getLogger("httpcore").setLevel(logging.WARNING)
 
 from endpoints_catalog import catalog
-from keycrm_client import KeyCrmError, client, compact, dumps
+from keycrm_client import DATA_DIR, KeyCrmError, client, compact, dumps
 
 mcp = FastMCP(
     "keycrm",
@@ -260,7 +260,7 @@ def crm_snapshot(folder: str = "") -> str:
         from pathlib import Path
 
         c = client()
-        base = Path(folder) if folder else Path(__file__).with_name("backups")
+        base = Path(folder) if folder else DATA_DIR / "backups"
         base.mkdir(parents=True, exist_ok=True)
         cards = c.internal_pages("/leads", {"per_page": 50}, max_items=2000, page_size=50)
         orders = c.official_pages("/order", {}, max_items=500)
